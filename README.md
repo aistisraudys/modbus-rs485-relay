@@ -3,6 +3,8 @@ how to control cheap modbus relay using python minimalmodbus
 
 ![alt text](modbus-rtu-rs485-relay.png)
 
+https://www.aliexpress.com/item/32982701288.html
+https://www.aliexpress.com/item/33028780128.html
 
 example:
 
