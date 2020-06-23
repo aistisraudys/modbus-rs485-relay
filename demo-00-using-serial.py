@@ -12,8 +12,8 @@ now = datetime.datetime.now()
 data1 = b'\x01\x05\x02\x00\x07\x00\xCE\x42' #flash for 700 ms
 
 ser = serial.Serial('com25', baudrate = 9600, bytesize = 8, stopbits = 1, parity = serial.PARITY_NONE)
-
 ser.write(data1)
 
+# print output on screen
 while True:
     print(ser.read(1))
