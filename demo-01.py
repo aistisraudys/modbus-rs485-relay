@@ -36,3 +36,5 @@ print(a)
 
 # pv1_voltage = instrument.read_register(0, functioncode=4)
 # print(pv1_voltage)
+
+instrument.read_register(0, functioncode=4) # i get errro

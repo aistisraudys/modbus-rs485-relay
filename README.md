@@ -6,7 +6,7 @@ how to control cheap modbus relay using python minimalmodbus
 https://www.aliexpress.com/item/32982701288.html
 https://www.aliexpress.com/item/33028780128.html
 
-example:
+Example:
 
 ```python
 import minimalmodbus
@@ -19,6 +19,6 @@ instrument.serial.stopbits = 1
 instrument.serial.parity = serial.PARITY_NONE
 instrument.serial.timeout = 1
 
-instrument.write_bit(0, False)
+instrument.write_bit(0, False) #0=relay number, False=0ff
 instrument.write_bit(1, True)
 ```
